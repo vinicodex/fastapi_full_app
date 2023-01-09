@@ -1,5 +1,5 @@
 from main import app
-from starlette.testclient import TestClient
+from fastapi.testclient import TestClient
 
 client = TestClient(app)
 
